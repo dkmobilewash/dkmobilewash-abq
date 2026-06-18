@@ -1,0 +1,34 @@
+⚠️ MISSING IMAGES - PLEASE UPLOAD ⚠️
+
+This directory needs 21 image files for your DK Mobile Wash website.
+
+All your image references in the code are still intact - nothing was deleted from the code.
+However, the actual image files need to be uploaded to this /public directory.
+
+See README_IMAGES.md in this folder for the complete list of required images.
+
+Quick checklist:
+☐ 1dda6a9b-cf6a-4ae2-866e-378358496416_4_5005_c.jpeg
+☐ 55f2f43b-5e39-42ff-a5a1-072ddfe9a5a0_4_5005_c.jpeg
+☐ 6d377425-6072-453a-bf55-54f70f30da22_4_5005_c.jpeg
+☐ 89b9f708-81b0-4fd4-b0c8-b2373a58c00f_4_5005_c.jpeg
+☐ 98c90595-25e2-4ff9-b204-1f47e4750cf9_1_102_o.jpeg
+☐ aa3d9309-e6d8-46a8-80f9-e276d9ffeb3b_4_5005_c.jpeg
+☐ black_white_simple_light_food_qr_code_business_card.png
+☐ black_white_simple_light_food_qr_code_business_card_(1).png
+☐ black_white_simple_light_food_qr_code_business_card_(2) copy.png
+☐ black_white_simple_light_food_qr_code_business_card_(3).png
+☐ blog_banner_for_website_content_(2).png
+☐ ceramic-coating-in-ventura.png
+☐ ceramic-coating-near-me-ventura.png
+☐ exterior-detail-ventura.png
+☐ img_3399.jpg
+☐ img_3400.jpg
+☐ mobile-detaling-ventura.png
+☐ mobile-detaling-ventura copy.png
+☐ paint-correection-ventura.png
+☐ paint-correection-ventura copy.png
+☐ ventura-county-mobile-detailing.png
+☐ ventura-oxnard-camarillo-detailing_(1)_copy.png
+
+Upload these files to /public and rebuild with: npm run build

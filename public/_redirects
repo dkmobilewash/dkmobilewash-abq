@@ -1,0 +1,2 @@
+# SPA fallback - all routes should return 200 and let React Router handle routing
+/* /index.html 200

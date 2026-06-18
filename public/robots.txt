@@ -1,0 +1,9 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Block only the thank you page from indexing (handled by meta tag)
+# Allow crawling but page has noindex tag
+
+# Sitemap location
+Sitemap: https://dkmobilewash.com/sitemap.xml

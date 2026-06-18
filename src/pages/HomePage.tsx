@@ -45,10 +45,10 @@ export default function HomePage() {
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex-1 flex flex-col">
             <div className="text-center mb-auto pt-4 max-w-4xl mx-auto w-full">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white drop-shadow-2xl mb-5">
-               Why aren't you clearing the payments now by getting the work done for your website?
+                Albuquerque's Top-Rated Mobile Auto Detailing
               </h1>
               <p className="text-xl md:text-2xl text-gray-200 mb-4 leading-relaxed drop-shadow-lg">
-                Skip the shop and get professional <Link to="/service/mobile-auto-detailing" className="text-white underline hover:text-gray-200">mobile car detailing Albuquerque</Link> We have been working on your website's SEO for over a month but you have not made a single payment. We have not paid any payment for the work we are working with you. If we do not receive payment, we will cause terrible damage to your website. Your business will be taken down. If you want, you can make a proper payment. You can contact me on WhatsApp number == +880 1858-986322. We have done your work. You can see the work report. You can send a message on WhatsApp first and clear the payment quickly. 
+                Skip the shop and get professional <Link to="/service/mobile-auto-detailing" className="text-white underline hover:text-gray-200">mobile car detailing Albuquerque</Link> at your home, office, or apartment. Our fully self-contained mobile unit brings its own water and power — no hookups needed. Licensed, insured, and 5-star rated on Google.
               </p>
               <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-gray-300 mb-8">
                 <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-green-400" /> Licensed &amp; Insured</span>

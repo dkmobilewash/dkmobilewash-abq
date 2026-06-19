@@ -75,11 +75,7 @@ CREATE TRIGGER on_booking_request_created
   FOR EACH ROW
   EXECUTE FUNCTION notify_new_booking();
 
--- 3. Fix contact form constraint
-ALTER TABLE contact_form_submissions
-DROP CONSTRAINT IF EXISTS contact_form_submissions_service_interest_check;
-
--- 4. Create other tables if missing
+-- 3. Create contact_form_submissions table if missing, then drop old constraint
 CREATE TABLE IF NOT EXISTS contact_form_submissions (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
   name text NOT NULL,
@@ -89,6 +85,8 @@ CREATE TABLE IF NOT EXISTS contact_form_submissions (
   contacted boolean DEFAULT false
 );
 ALTER TABLE contact_form_submissions ENABLE ROW LEVEL SECURITY;
+ALTER TABLE contact_form_submissions
+DROP CONSTRAINT IF EXISTS contact_form_submissions_service_interest_check;
 DO $$ BEGIN
   CREATE POLICY "Anyone can submit contact form"
     ON contact_form_submissions FOR INSERT TO anon

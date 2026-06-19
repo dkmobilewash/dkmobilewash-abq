@@ -38,8 +38,9 @@ export function GlobalBookingModal({ isOpen, onClose }: GlobalBookingModalProps)
 
       setSubmitted(true);
 
-    } catch (err) {
-      setError('Submission failed. Please try again or call us directly at (505) 604-8058.');
+    } catch (err: any) {
+      const detail = err?.message || err?.code || JSON.stringify(err);
+      setError(`Submission failed: ${detail}. Please try again or call us directly at (505) 604-8058.`);
       console.error('Supabase error:', err);
     } finally {
       setIsSubmitting(false);

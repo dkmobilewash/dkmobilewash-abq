@@ -36,6 +36,22 @@ export function QuoteFormModal({ isOpen, onClose }: QuoteFormModalProps) {
 
       if (supabaseError) throw supabaseError;
 
+      // Send to Zapier webhook for lead tracking
+      try {
+        await fetch('https://hooks.zapier.com/hooks/catch/20117350/44fmixd/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            ...formData,
+            website: 'DK Mobile Wash ABQ',
+            formType: 'quote',
+            submittedAt: new Date().toISOString(),
+          }),
+        })
+      } catch (e) {
+        console.error('[Zapier Webhook Error]', e)
+      }
+
       setShowSuccess(true);
     } catch (err) {
       console.error('Error submitting quote:', err);

@@ -61,10 +61,10 @@ export default function FleetPage() {
   return (
     <>
       <SEO
-        title="Mobile Fleet Washing Albuquerque NM | On-Site Service | DK Mobile Wash"
-        description="Professional fleet washing and detailing for Albuquerque businesses. We come to your lot. Flexible schedules, professional results. Call (505) 604-8058."
+        title="Fleet Washing & Detailing Albuquerque NM | We Come to Your Lot | DK Mobile Wash"
+        description="On-site fleet washing and commercial vehicle detailing in Albuquerque. Weekly, biweekly, or monthly schedules. Self-contained mobile unit — no hookups needed. Call (505) 604-8058 for a free fleet quote."
         keywords="fleet washing albuquerque, mobile fleet detailing near me, fleet vehicle cleaning, commercial vehicle detailing albuquerque, fleet car wash albuquerque nm"
-        canonical="https://dkmobilewash.com/fleet"
+        canonical="https://www.dkmobilewash.com/fleet"
       />
 
       <div className="min-h-screen bg-white">

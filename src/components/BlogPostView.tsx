@@ -195,7 +195,7 @@ export default function BlogPostView({ post, onBack }: BlogPostViewProps) {
         title={`${post.title} | DK Mobile Wash Albuquerque`}
         description={post.excerpt}
         keywords={`${post.title}, auto detailing, car care, Albuquerque metro area`}
-        canonical={`https://dkmobilewashalbuquerque.com/blog/${post.slug}`}
+        canonical={`https://www.dkmobilewash.com/blog/${post.slug}`}
       />
 
       <div className="min-h-screen bg-white pt-20">

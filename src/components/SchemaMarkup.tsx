@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { DK_MOBILE_WASH_NAP } from '../config/business';
 
-const SITE_URL = 'https://dkmobilewash.com';
+const SITE_URL = 'https://www.dkmobilewash.com';
 
 function getLocalBusinessSchema() {
   return {

@@ -47,7 +47,7 @@ export default function InteriorCarDetailingAlbuquerquePage() {
         title="Professional Interior Car Detailing Albuquerque NM | Mobile Deep Cleaning & Odor Removal | DK Mobile Wash"
         description="Expert mobile interior detailing in Albuquerque, NM. Deep shampooing, pet hair removal, stain extraction & ozone odor treatment at your home. Licensed & insured. Call (505) 604-8058"
         keywords="interior car detailing Albuquerque, mobile interior cleaning ABQ, pet hair removal car Albuquerque, car upholstery shampooing Rio Rancho, odor elimination Corrales, on-site interior sanitization"
-        canonical="https://dkmobilewash.com/interior-car-detailing-albuquerque"
+        canonical="https://www.dkmobilewash.com/interior-car-detailing-albuquerque"
       />
 
       <main className="min-h-screen bg-white pt-20">

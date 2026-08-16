@@ -419,7 +419,7 @@ export default function LocationPage() {
           title={data.seoTitle}
           description={data.seoDescription}
           keywords={`mobile detailing ${data.name}, car detailing ${data.name}, auto detailing ${data.name}, ceramic coating ${data.name}`}
-          canonical={`https://dkmobilewash.com/${location}`}
+          canonical={`https://www.dkmobilewash.com/${location}`}
         />
 
         <div className="min-h-screen bg-white pt-16">
@@ -798,7 +798,7 @@ export default function LocationPage() {
           title={data.seoTitle}
           description={data.seoDescription}
           keywords={`mobile detailing ${data.name}, car detailing ${data.name}, auto detailing ${data.name}, ceramic coating ${data.name}`}
-          canonical={`https://dkmobilewash.com/${location}`}
+          canonical={`https://www.dkmobilewash.com/${location}`}
         />
 
         <div className="min-h-screen bg-white pt-16">
@@ -1117,7 +1117,7 @@ export default function LocationPage() {
         title={data.seoTitle}
         description={data.seoDescription}
         keywords={`mobile detailing ${data.name}, car detailing ${data.name}, auto detailing ${data.name}, ceramic coating ${data.name}`}
-        canonical={`https://dkmobilewash.com/${location}`}
+        canonical={`https://www.dkmobilewash.com/${location}`}
       />
 
       <div className="min-h-screen bg-white pt-16">

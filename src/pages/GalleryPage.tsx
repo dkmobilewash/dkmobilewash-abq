@@ -69,7 +69,7 @@ export default function GalleryPage({ onNavigate }: GalleryPageProps) {
         title="Mobile Detailing Gallery Albuquerque NM | Real Before & After Results | DK Mobile Wash"
         description="See real mobile detailing transformations in Albuquerque, NM. Browse our gallery of ceramic coating, paint correction, interior deep cleaning & exterior detailing results. Licensed & insured. Book today: (505) 604-8058"
         keywords="detailing gallery Albuquerque, car detailing photos Albuquerque NM, mobile detailing results Rio Rancho, auto detailing gallery Corrales, ceramic coating before after ABQ"
-        canonical="https://dkmobilewash.com/gallery"
+        canonical="https://www.dkmobilewash.com/gallery"
       />
 
       <div className="min-h-screen bg-white pt-20">

@@ -142,7 +142,7 @@ export default function PackageLocationPage() {
         title={`${pkg.name} in ${location.name} | DK Mobile Wash`}
         description={`${pkg.shortIntro} Professional mobile detailing service in ${location.name}, NM.`}
         keywords={`${pkg.name.toLowerCase()} ${location.name}, mobile detailing ${location.name}, car detailing ${location.name}`}
-        canonical={`https://dkmobilewashalbuquerque.com/${pkg.slug}/${location.slug}`}
+        canonical={`https://www.dkmobilewash.com/${pkg.slug}/${location.slug}`}
       />
 
       <div className="min-h-screen bg-white pt-20">

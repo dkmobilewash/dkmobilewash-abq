@@ -9,7 +9,7 @@ export function InteriorDetailingPage() {
       metaTitle="Interior Car Detailing Albuquerque NM | Deep Clean | DK Mobile Wash"
       metaDescription="Deep interior car detailing in Albuquerque. Pet hair removal, odor elimination, leather conditioning, steam cleaning. Mobile service at your home. Call (505) 604-8058."
       keywords="interior car detailing albuquerque, interior detailing albuquerque, deep interior cleaning, pet hair removal car albuquerque, odor removal car, interior detail car"
-      canonical="https://dkmobilewash.com/service/interior-detailing"
+      canonical="https://www.dkmobilewash.com/service/interior-detailing"
       imageUrl="https://tfbmmnwyoraaealnfsfw.supabase.co/storage/v1/object/public/Website%20Pictures/DK%20Detailing%20services/dkservices-interiodetailing.jpeg"
       imageAlt="Interior car detailing Albuquerque - professional deep clean at your home by DK Mobile Wash"
       h1Override="Interior Car Detailing in Albuquerque, NM — Deep Clean at Your Driveway"
@@ -121,7 +121,7 @@ export function ExteriorDetailingPage() {
       metaTitle="Exterior Car Detailing Albuquerque NM | Mobile Service | DK Mobile Wash"
       metaDescription="Professional exterior detailing in Albuquerque. Clay bar, iron decontamination, hand wash, wax, and paint prep delivered to your driveway. Call (505) 604-8058."
       keywords="exterior detailing albuquerque, exterior car detailing, car mobile detailing, exterior detail car, car detailing albuquerque, professional car detailing"
-      canonical="https://dkmobilewash.com/service/exterior-detailing"
+      canonical="https://www.dkmobilewash.com/service/exterior-detailing"
       imageUrl="https://tfbmmnwyoraaealnfsfw.supabase.co/storage/v1/object/public/Website%20Pictures/exterior%20detailing%20page/IMG_1DB764255801-1.jpeg"
       h1Override="Exterior Car Detailing in Albuquerque, NM — Mobile Service at Your Door"
       sectionHeadings={{
@@ -224,7 +224,7 @@ export function PaintCorrectionPage() {
       metaTitle="Car Paint Correction Service Albuquerque | Restore Mirror Finish ⭐"
       metaDescription="Expert car paint correction service in Albuquerque, NM. Fix swirl marks, scratches and oxidation. Restore your car's gloss. Call for a quote: (505) 604-8058."
       keywords="car paint correction service, paint correction albuquerque, swirl mark removal service"
-      canonical="https://dkmobilewash.com/service/paint-correction"
+      canonical="https://www.dkmobilewash.com/service/paint-correction"
       imageUrl="https://tfbmmnwyoraaealnfsfw.supabase.co/storage/v1/object/public/Website%20Pictures/paint%20correction%20page/paint-correction-albuqueruqe%20.webp"
       h1Override="Professional Paint Correction in Albuquerque, NM | Restore Mirror Finish"
       sectionHeadings={{
@@ -295,7 +295,7 @@ export function HeadlightRestorationPage() {
       metaTitle="Headlight Restoration Albuquerque NM | Mobile Service | DK Mobile Wash"
       metaDescription="Restore foggy, yellowed headlights in Albuquerque. Mobile headlight restoration service — we come to your home. Improves visibility and appearance. Call (505) 604-8058."
       keywords="headlight restoration albuquerque, headlight cleaning service, foggy headlight restoration, headlight restoration near me, headlights restoration service"
-      canonical="https://dkmobilewash.com/service/headlight-restoration"
+      canonical="https://www.dkmobilewash.com/service/headlight-restoration"
       imageUrl="https://tfbmmnwyoraaealnfsfw.supabase.co/storage/v1/object/public/Website%20Pictures/headlight%20restoration%20page/albuquerque-headlight-restoration.jpg"
       h1Override="Headlight Restoration in Albuquerque, NM — Clarity Restored at Your Door"
       sectionHeadings={{
@@ -390,7 +390,7 @@ export function EngineBayDetailingPage() {
       metaTitle="Engine Bay Cleaning Albuquerque NM | Mobile Service | DK Mobile Wash"
       metaDescription="Professional engine bay cleaning in Albuquerque. Mobile service at your home or business. Safe degreasing, hand cleaning, and dressing. Call (505) 604-8058."
       keywords="engine bay cleaning albuquerque, engine bay detailing albuquerque, engine cleaning service, engine bay detail near me"
-      canonical="https://dkmobilewash.com/service/engine-bay-detailing"
+      canonical="https://www.dkmobilewash.com/service/engine-bay-detailing"
       imageUrl="https://tfbmmnwyoraaealnfsfw.supabase.co/storage/v1/object/public/Website%20Pictures/DK%20Detailing%20services/engine-bay-detail-albuquerque.webp"
       h1Override="Engine Bay Cleaning in Albuquerque, NM — Professional Mobile Service"
       sectionHeadings={{
@@ -486,7 +486,7 @@ export function FleetCommercialDetailingPage() {
       metaTitle="Fleet Detailing Albuquerque NM | Mobile Commercial Service | DK Mobile Wash"
       metaDescription="Mobile fleet and commercial vehicle detailing in Albuquerque. We come to your lot or job site. Flexible schedules, professional results. Call (505) 604-8058."
       keywords="fleet detailing albuquerque, fleet washing albuquerque, commercial vehicle detailing albuquerque, fleet vehicle cleaning, mobile fleet detailing near me, dealership detailing albuquerque"
-      canonical="https://dkmobilewash.com/albuquerque/fleet-commercial-detailing"
+      canonical="https://www.dkmobilewash.com/albuquerque/fleet-commercial-detailing"
       imageUrl="https://tfbmmnwyoraaealnfsfw.supabase.co/storage/v1/object/public/Website%20Pictures/fleet%20%26%20dealership%20page/7FF36606-8F31-487C-A6FD-F37CBA4CC027_1_105_c.jpeg"
       h1Override="Fleet and Commercial Vehicle Detailing in Albuquerque, NM — We Come to Your Lot"
       sectionHeadings={{

@@ -47,7 +47,7 @@ export default function MobileAutoDetailingAlbuquerquePage() {
         title="Mobile Auto Detailing Albuquerque NM | At-Home Service | DK Mobile Wash"
         description="Professional mobile car detailing in Albuquerque, NM. Self-contained unit, licensed & insured. Interior cleaning, exterior wash, paint correction & ceramic coating at your door. Call (505) 604-8058"
         keywords="mobile auto detailing Albuquerque, car detailing Albuquerque NM, mobile car wash Albuquerque, interior detailing Albuquerque, ceramic coating Albuquerque, self-contained mobile detailing"
-        canonical="https://dkmobilewash.com/mobile-auto-detailing-albuquerque-nm"
+        canonical="https://www.dkmobilewash.com/mobile-auto-detailing-albuquerque-nm"
       />
 
       <main className="min-h-screen bg-white pt-20">

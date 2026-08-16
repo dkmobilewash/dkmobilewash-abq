@@ -20,10 +20,10 @@ export default function Footer() {
               Professional mobile auto detailing and ceramic coating services throughout Albuquerque and surrounding metro areas.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-white transition-colors" aria-label="Facebook">
+              <a href="https://www.facebook.com/dkmobilewash" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors" aria-label="Facebook">
                 <Facebook className="w-5 h-5" aria-hidden="true" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/dkmobilewash" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors" aria-label="Instagram">
                 <Instagram className="w-5 h-5" aria-hidden="true" />
               </a>
             </div>
@@ -222,23 +222,12 @@ export default function Footer() {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-gray-300 flex-shrink-0 mt-0.5" />
                 <a
-                  href="https://www.google.com/maps/place/7411+Lead+Dr+NE,+Albuquerque,+NM+87110"
+                  href="https://www.google.com/maps/place/1507+Callens+Rd+H,+Albuquerque,+NM+87102"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-white transition-colors text-sm"
                 >
-                  7411 Lead Dr NE,<br />Albuquerque, NM 87110
-                </a>
-              </li>
-              <li className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-gray-300 flex-shrink-0 mt-0.5" />
-                <a
-                  href="https://www.google.com/maps/place/8202+Louisiana+Blvd+NE,+Albuquerque,+NM+87113"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-white transition-colors text-sm"
-                >
-                  8202 Louisiana Blvd NE,<br />Albuquerque, NM 87113
+                  1507 Callens Rd H,<br />Albuquerque, NM 87102
                 </a>
               </li>
               <li className="flex items-center space-x-3">

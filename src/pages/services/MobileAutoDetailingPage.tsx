@@ -37,7 +37,7 @@ export default function MobileAutoDetailingPage({ onNavigate, onBookNow }: Servi
         title="Mobile Auto Detailing Albuquerque NM | Comes to You | DK Mobile Wash"
         description="DK Mobile Wash brings professional mobile auto detailing directly to your home or office in Albuquerque, NM. Licensed, insured, self-contained. Call (505) 604-8058."
         keywords="mobile auto detailing albuquerque, mobile car detailing albuquerque, mobile detailing albuquerque, mobile detailer near me, car detailing at home"
-        canonical="https://dkmobilewash.com/service/mobile-auto-detailing"
+        canonical="https://www.dkmobilewash.com/service/mobile-auto-detailing"
       />
 
       <div className="min-h-screen bg-white pt-20">

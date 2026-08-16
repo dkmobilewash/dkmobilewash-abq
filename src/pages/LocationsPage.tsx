@@ -71,10 +71,10 @@ export default function LocationsPage() {
   return (
     <>
       <SEO
-        title="DK Mobile Wash Locations | Albuquerque & Rio Rancho NM | DK Mobile Wash"
-        description="DK Mobile Wash serves Albuquerque, Rio Rancho, Corrales, North Valley, and all surrounding areas. Mobile service — we come to you. Call (505) 604-8058."
+        title="Mobile Detailing Near Me Albuquerque NM | All Service Areas | DK Mobile Wash"
+        description="DK Mobile Wash serves Albuquerque, Rio Rancho, Corrales, North Valley, Tanoan, Paradise Hills & Los Ranchos. We come to your driveway — no shop visit needed. Call (505) 604-8058."
         keywords="dk mobile wash albuquerque, mobile car detailing locations albuquerque, mobile detailing albuquerque nm, car detailing near me albuquerque"
-        canonical="https://dkmobilewash.com/locations"
+        canonical="https://www.dkmobilewash.com/locations"
       />
 
       <div className="min-h-screen bg-white pt-20">

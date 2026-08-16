@@ -81,7 +81,7 @@ export default function FAQPage({ onNavigate }: FAQPageProps) {
         title="Mobile Detailing FAQ Albuquerque | Car Detailing Questions ABQ"
         description="Common questions about mobile car wash & auto detailing in Albuquerque. Learn about pricing, ceramic coating, service areas, and deep interior cleaning tips."
         keywords="mobile detailing FAQ Albuquerque, car detailing questions Albuquerque metro area, auto detailing information Rio Rancho, mobile car wash details Corrales, professional detailing help NM"
-        canonical="https://dkmobilewashalbuquerque.com/faq"
+        canonical="https://www.dkmobilewash.com/faq"
       />
 
       <div className="min-h-screen bg-white pt-20">

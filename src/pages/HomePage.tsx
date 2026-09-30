@@ -31,15 +31,14 @@ export default function HomePage() {
       <div className="min-h-screen bg-white">
 
         {/* ── HERO ── */}
-        <section
-          className="relative text-white pt-32 pb-16 min-h-[760px] md:min-h-[860px] flex flex-col"
-          style={{
-            backgroundImage: "url('https://tfbmmnwyoraaealnfsfw.supabase.co/storage/v1/object/public/Website%20Pictures/Hero%20Image/best-deailing-in-albuquerque.png')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat"
-          }}
-        >
+        <section className="relative text-white pt-32 pb-16 min-h-[760px] md:min-h-[860px] flex flex-col overflow-hidden">
+          <img
+            src="https://tfbmmnwyoraaealnfsfw.supabase.co/storage/v1/object/public/Website%20Pictures/Hero%20Image/best-deailing-in-albuquerque.png"
+            alt="Professional mobile auto detailing service in Albuquerque NM - DK Mobile Wash"
+            className="absolute inset-0 w-full h-full object-cover"
+            loading="eager"
+            fetchPriority="high"
+          />
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/70"></div>
 
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex-1 flex flex-col">

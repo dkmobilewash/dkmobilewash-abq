@@ -1,8 +1,27 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Home, Phone, ArrowRight } from 'lucide-react';
 import SEO from '../components/SEO';
 
 export default function NotFoundPage() {
+  useEffect(() => {
+    let meta = document.querySelector('meta[name="robots"]');
+    if (meta) {
+      meta.setAttribute('content', 'noindex, nofollow');
+    } else {
+      meta = document.createElement('meta');
+      meta.setAttribute('name', 'robots');
+      meta.setAttribute('content', 'noindex, nofollow');
+      document.head.appendChild(meta);
+    }
+    return () => {
+      const robotsMeta = document.querySelector('meta[name="robots"]');
+      if (robotsMeta) {
+        robotsMeta.setAttribute('content', 'index, follow');
+      }
+    };
+  }, []);
+
   return (
     <>
       <SEO

@@ -436,9 +436,14 @@ export default function LocationServicePage() {
   const images = location ? locationImageMap[location] : null;
 
   if (!loc || !svc || !images) {
-    const noindexMeta = document.querySelector('meta[name="robots"]');
+    let noindexMeta = document.querySelector('meta[name="robots"]');
     if (noindexMeta) {
       noindexMeta.setAttribute('content', 'noindex, nofollow');
+    } else {
+      noindexMeta = document.createElement('meta');
+      noindexMeta.setAttribute('name', 'robots');
+      noindexMeta.setAttribute('content', 'noindex, nofollow');
+      document.head.appendChild(noindexMeta);
     }
     return (
       <div className="min-h-screen bg-white pt-20 flex items-center justify-center">

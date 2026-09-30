@@ -272,14 +272,14 @@ export default function ContactPage({ onNavigate }: ContactPageProps) {
                 <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-4">Contact Information</h3>
                   <div className="space-y-4">
-                    <a href="tel:5055550167" className="flex items-start space-x-3 group">
+                    <a href="tel:5056048058" className="flex items-start space-x-3 group">
                       <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-blue-100 transition-colors">
                         <Phone className="w-5 h-5 text-[#0052CC]" />
                       </div>
                       <div>
                         <p className="text-sm text-gray-600">Phone</p>
                         <p className="font-semibold text-gray-900 group-hover:text-[#0052CC] transition-colors">
-                          (505) 555-0167
+                          (505) 604-8058
                         </p>
                       </div>
                     </a>
@@ -351,13 +351,17 @@ export default function ContactPage({ onNavigate }: ContactPageProps) {
         <section className="py-12 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
-              <div className="aspect-video w-full bg-gray-200 flex items-center justify-center">
-                <div className="text-center text-gray-500">
-                  <MapPin className="w-12 h-12 mx-auto mb-2" />
-                  <p className="font-semibold">Service Area Map</p>
-                  <p className="text-sm">Serving all of Albuquerque Metro Area, NM</p>
-                </div>
-              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d209892.32723998076!2d-106.8292841!3d35.1062897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8858f39b137647c9%3A0x2b4571618cd71339!2sDK%20Mobile%20Wash!5e0!3m2!1sen!2sus!4v1696000000000!5m2!1sen!2sus"
+                width="100%"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="DK Mobile Wash Albuquerque Service Area"
+                className="w-full"
+              ></iframe>
             </div>
           </div>
         </section>

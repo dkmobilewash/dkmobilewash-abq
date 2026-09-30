@@ -257,6 +257,8 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} DK Mobile Wash. All rights reserved. Licensed & Insured.
           </p>
         </div>
+        {/* Spacer for mobile sticky CTA bar */}
+        <div className="h-16 lg:hidden" />
       </div>
     </footer>
   );

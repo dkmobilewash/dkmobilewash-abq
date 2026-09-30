@@ -34,6 +34,7 @@ import LocationServicePage from './pages/LocationServicePage';
 import AlbuquerqueAcresPage from './pages/AlbuquerqueAcresPage';
 import NotFoundPage from './pages/NotFoundPage';
 import { GlobalBookingModal } from './components/GlobalBookingModal';
+import MobileStickyCTA from './components/MobileStickyCTA';
 
 interface BookingModalContextType {
   openBookingModal: () => void;
@@ -102,6 +103,7 @@ function App() {
         </Routes>
       </main>
         <Footer />
+        <MobileStickyCTA />
         <GlobalBookingModal
           isOpen={isBookingModalOpen}
           onClose={closeBookingModal}

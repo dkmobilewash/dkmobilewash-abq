@@ -438,7 +438,7 @@ export default function LocationPage() {
                   MOBILE DETAILING
                 </div>
                 <h1 style={{ fontSize: '3.5rem', fontWeight: 'bold', marginBottom: '1.5rem', lineHeight: 1.1 }}>
-                  Los Ranchos De Albuquerque
+                  {data.heroTitle}
                 </h1>
                 <p style={{ fontSize: '1.2rem', marginBottom: '2rem', lineHeight: 1.6, opacity: 0.95 }}>
                   {data.heroSubtitle}

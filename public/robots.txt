@@ -6,4 +6,4 @@ Allow: /
 # Allow crawling but page has noindex tag
 
 # Sitemap location
-Sitemap: https://dkmobilewash.com/sitemap.xml
+Sitemap: https://www.dkmobilewash.com/sitemap.xml

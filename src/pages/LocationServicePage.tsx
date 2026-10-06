@@ -436,11 +436,21 @@ export default function LocationServicePage() {
   const images = location ? locationImageMap[location] : null;
 
   if (!loc || !svc || !images) {
+    let noindexMeta = document.querySelector('meta[name="robots"]');
+    if (noindexMeta) {
+      noindexMeta.setAttribute('content', 'noindex, nofollow');
+    } else {
+      noindexMeta = document.createElement('meta');
+      noindexMeta.setAttribute('name', 'robots');
+      noindexMeta.setAttribute('content', 'noindex, nofollow');
+      document.head.appendChild(noindexMeta);
+    }
     return (
       <div className="min-h-screen bg-white pt-20 flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Page Not Found</h1>
-          <Link to="/locations" className="text-[#007BFF] hover:underline">
+          <p className="text-gray-600 mb-6">This service is not available for the selected location.</p>
+          <Link to="/locations" className="text-[#0052CC] hover:underline font-semibold">
             View All Locations
           </Link>
         </div>
@@ -452,9 +462,9 @@ export default function LocationServicePage() {
     <>
       <SEO
         title={`${svc.name} in ${loc.name} | DK Mobile Wash`}
-        description={`Professional ${svc.name.toLowerCase()} in ${loc.name}. DK Mobile Wash comes to your ${loc.name} home/office. Book premium ${svc.name.toLowerCase()} today.`}
+        description={`Professional ${svc.name.toLowerCase()} in ${loc.name}. DK Mobile Wash comes to your ${loc.name} home or office. Licensed & insured. Call (505) 604-8058.`}
         keywords={`${svc.name.toLowerCase()} ${loc.name}, mobile ${svc.name.toLowerCase()} ${loc.name}, car detailing ${loc.name}`}
-        canonical={`https://dkmobilewashalbuquerque.com/${location}/${service}`}
+        canonical={`https://www.dkmobilewash.com/${location}/${service}`}
       />
 
       <div className="min-h-screen bg-white pt-16">
@@ -685,7 +695,7 @@ export default function LocationServicePage() {
             More DK Services for {loc.name}
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem', maxWidth: '1200px', margin: 'auto' }}>
-            {Object.keys(serviceData).filter(s => s !== service).slice(0, 6).map((s, idx) => {
+            {Object.keys(serviceData).filter(s => s !== service).filter(s => ['mobile-auto-detailing', 'ceramic-coating', 'paint-correction', 'interior-detailing', 'exterior-detailing', 'headlight-restoration'].includes(s)).slice(0, 5).map((s, idx) => {
               const getServiceImage = (serviceSlug: string, index: number) => {
                 const serviceImageMap: Record<string, number> = {
                   'mobile-auto-detailing': 0,

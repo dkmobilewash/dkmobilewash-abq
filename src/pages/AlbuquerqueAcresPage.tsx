@@ -44,10 +44,10 @@ export default function AlbuquerqueAcresPage() {
   return (
     <>
       <SEO
-        title="Mobile Car Detailing Albuquerque Acres NM | DK Mobile Wash"
-        description="Mobile auto detailing in Albuquerque Acres. Exterior, interior, ceramic coating, and paint correction at your door. Licensed and insured. Call (505) 604-8058."
+        title="Mobile Detailing Albuquerque Acres | DK Mobile Wash"
+        description="Mobile car detailing in Albuquerque Acres, at your property. Interior, exterior & ceramic coating, licensed & insured. Call (505) 604-8058."
         keywords="auto detailing albuquerque acres, car detailing albuquerque acres, mobile detailing albuquerque acres, ceramic coating albuquerque acres, detailing east mountains nm"
-        canonical="https://dkmobilewash.com/albuquerque-acres"
+        canonical="https://www.dkmobilewash.com/albuquerque-acres"
       />
 
       {/* Hero */}

@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { DK_MOBILE_WASH_NAP } from '../config/business';
 
-const SITE_URL = 'https://dkmobilewash.com';
+const SITE_URL = 'https://www.dkmobilewash.com';
 
 function getLocalBusinessSchema() {
   return {
@@ -60,6 +60,7 @@ function getLocalBusinessSchema() {
     sameAs: [
       'https://www.facebook.com/dkmobilewash',
       'https://www.instagram.com/dkmobilewash',
+      'https://www.google.com/maps?cid=3116458399736562489',
     ],
     aggregateRating: {
       '@type': 'AggregateRating',
@@ -80,11 +81,6 @@ function getLocalBusinessSchema() {
           bestRating: '5',
           worstRating: '1',
         },
-        itemReviewed: {
-          '@type': 'AutoDetailing',
-          '@id': `${SITE_URL}/#organization`,
-          name: DK_MOBILE_WASH_NAP.fullName,
-        },
       },
       {
         '@type': 'Review',
@@ -96,11 +92,6 @@ function getLocalBusinessSchema() {
           ratingValue: '5',
           bestRating: '5',
           worstRating: '1',
-        },
-        itemReviewed: {
-          '@type': 'AutoDetailing',
-          '@id': `${SITE_URL}/#organization`,
-          name: DK_MOBILE_WASH_NAP.fullName,
         },
       },
       {
@@ -114,11 +105,6 @@ function getLocalBusinessSchema() {
           bestRating: '5',
           worstRating: '1',
         },
-        itemReviewed: {
-          '@type': 'AutoDetailing',
-          '@id': `${SITE_URL}/#organization`,
-          name: DK_MOBILE_WASH_NAP.fullName,
-        },
       },
       {
         '@type': 'Review',
@@ -130,11 +116,6 @@ function getLocalBusinessSchema() {
           ratingValue: '5',
           bestRating: '5',
           worstRating: '1',
-        },
-        itemReviewed: {
-          '@type': 'AutoDetailing',
-          '@id': `${SITE_URL}/#organization`,
-          name: DK_MOBILE_WASH_NAP.fullName,
         },
       },
     ],
@@ -186,12 +167,16 @@ function getServiceSchemas() {
     name: DK_MOBILE_WASH_NAP.fullName,
   };
 
-  const areaServed = {
-    '@type': 'City',
-    name: 'Albuquerque',
-    addressRegion: 'NM',
-    addressCountry: 'US',
-  };
+  const areaServed = [
+    { '@type': 'City', name: 'Albuquerque', addressRegion: 'NM', addressCountry: 'US' },
+    { '@type': 'City', name: 'Rio Rancho', addressRegion: 'NM', addressCountry: 'US' },
+    { '@type': 'City', name: 'North Albuquerque Acres', addressRegion: 'NM', addressCountry: 'US' },
+    { '@type': 'City', name: 'Corrales', addressRegion: 'NM', addressCountry: 'US' },
+    { '@type': 'City', name: 'Los Ranchos De Albuquerque', addressRegion: 'NM', addressCountry: 'US' },
+    { '@type': 'City', name: 'Tanoan', addressRegion: 'NM', addressCountry: 'US' },
+    { '@type': 'City', name: 'Paradise Hills', addressRegion: 'NM', addressCountry: 'US' },
+    { '@type': 'City', name: 'North Valley', addressRegion: 'NM', addressCountry: 'US' },
+  ];
 
   return [
     {
@@ -1051,13 +1036,34 @@ function getFAQSchema(pathname: string) {
   return getHomeFAQSchema();
 }
 
+function getWebSiteSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${SITE_URL}/#website`,
+    url: SITE_URL,
+    name: 'DK Mobile Wash',
+    publisher: { '@id': `${SITE_URL}/#organization` },
+  };
+}
+
+const PAGES_WITH_FAQ = new Set([
+  '/', '/ceramic-coating', '/rio-rancho', '/service/mobile-auto-detailing',
+  '/service/interior-detailing', '/service/exterior-detailing',
+  '/service/headlight-restoration', '/service/engine-bay-detailing',
+  '/albuquerque', '/corrales', '/north-valley', '/tanoan',
+  '/paradise-hills', '/los-ranchos-de-albuquerque', '/albuquerque-acres',
+  '/albuquerque/fleet-commercial-detailing', '/service-areas', '/locations', '/fleet',
+]);
+
 export default function SchemaMarkup() {
   const location = useLocation();
 
   useEffect(() => {
     const localBusinessSchema = getLocalBusinessSchema();
     const serviceSchemas = getServiceSchemas();
-    const faqSchema = getFAQSchema(location.pathname);
+    const webSiteSchema = getWebSiteSchema();
+    const faqSchema = PAGES_WITH_FAQ.has(location.pathname) ? getFAQSchema(location.pathname) : null;
     const breadcrumbSchema = getBreadcrumbSchema(location.pathname);
 
     // LocalBusiness
@@ -1080,15 +1086,29 @@ export default function SchemaMarkup() {
     }
     serviceScript.textContent = JSON.stringify(serviceSchemas);
 
-    // FAQ
-    let faqScript = document.querySelector('script[data-schema="faq"]');
-    if (!faqScript) {
-      faqScript = document.createElement('script');
-      faqScript.setAttribute('type', 'application/ld+json');
-      faqScript.setAttribute('data-schema', 'faq');
-      document.head.appendChild(faqScript);
+    // WebSite
+    let webSiteScript = document.querySelector('script[data-schema="website"]');
+    if (!webSiteScript) {
+      webSiteScript = document.createElement('script');
+      webSiteScript.setAttribute('type', 'application/ld+json');
+      webSiteScript.setAttribute('data-schema', 'website');
+      document.head.appendChild(webSiteScript);
     }
-    faqScript.textContent = JSON.stringify(faqSchema);
+    webSiteScript.textContent = JSON.stringify(webSiteSchema);
+
+    // FAQ (only on pages that have visible FAQ content)
+    let faqScript = document.querySelector('script[data-schema="faq"]');
+    if (faqSchema) {
+      if (!faqScript) {
+        faqScript = document.createElement('script');
+        faqScript.setAttribute('type', 'application/ld+json');
+        faqScript.setAttribute('data-schema', 'faq');
+        document.head.appendChild(faqScript);
+      }
+      faqScript.textContent = JSON.stringify(faqSchema);
+    } else if (faqScript) {
+      faqScript.remove();
+    }
 
     // Breadcrumb (route-specific)
     let breadcrumbScript = document.querySelector('script[data-schema="breadcrumb"]');

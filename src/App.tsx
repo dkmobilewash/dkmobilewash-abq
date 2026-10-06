@@ -32,7 +32,9 @@ import LocationsPage from './pages/LocationsPage';
 import LocationPage from './pages/LocationPage';
 import LocationServicePage from './pages/LocationServicePage';
 import AlbuquerqueAcresPage from './pages/AlbuquerqueAcresPage';
+import NotFoundPage from './pages/NotFoundPage';
 import { GlobalBookingModal } from './components/GlobalBookingModal';
+import MobileStickyCTA from './components/MobileStickyCTA';
 
 interface BookingModalContextType {
   openBookingModal: () => void;
@@ -97,9 +99,11 @@ function App() {
           <Route path="/los-ranchos-de-albuquerque" element={<LocationPage />} />
           <Route path="/:location/:service" element={<LocationServicePage />} />
           <Route path="/:location" element={<LocationPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
         <Footer />
+        <MobileStickyCTA />
         <GlobalBookingModal
           isOpen={isBookingModalOpen}
           onClose={closeBookingModal}

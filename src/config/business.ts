@@ -23,7 +23,7 @@ export const DK_MOBILE_WASH_NAP = {
   telephone: '(505) 604-8058',
   telephoneRaw: '+1-505-604-8058',
   email: 'info@dkmobilewash.com',
-  website: 'https://dkmobilewashalbuquerque.com/',
+  website: 'https://www.dkmobilewash.com/',
 } as const;
 
 // === TARGET KEYWORDS (for reference in copy) ===

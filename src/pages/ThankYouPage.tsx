@@ -50,7 +50,7 @@ export function ThankYouPage() {
             </p>
 
             <a
-              href="https://calendly.com/dkmobilewashvc"
+              href="https://calendly.com/dkmobilewash"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transition-colors shadow-lg hover:shadow-xl"
@@ -62,8 +62,8 @@ export function ThankYouPage() {
 
           <div className="text-gray-600">
             <p className="mb-2">Questions? Call us at:</p>
-            <a href="tel:8054123456" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
-              (805) 412-3456
+            <a href="tel:5056048058" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
+              (505) 604-8058
             </a>
           </div>
         </div>

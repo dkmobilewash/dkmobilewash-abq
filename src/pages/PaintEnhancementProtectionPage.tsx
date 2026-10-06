@@ -49,7 +49,7 @@ export default function PaintEnhancementProtectionPage() {
         title="Paint Enhancement & Protection Albuquerque NM | Mobile Polishing & Ceramic Coating | DK Mobile Wash"
         description="Professional mobile paint enhancement, wax, sealant & ceramic coating in Albuquerque. Defend against high-desert UV, dust & hard water. Licensed & insured. Call (505) 604-8058"
         keywords="paint enhancement Albuquerque, paint protection Albuquerque, car wax Rio Rancho, ceramic coating Corrales, paint polishing ABQ, UV protection car paint, mobile paint protection service"
-        canonical="https://dkmobilewash.com/paint-enhancement-protection-albuquerque"
+        canonical="https://www.dkmobilewash.com/paint-enhancement-protection-albuquerque"
       />
 
       <main className="min-h-screen bg-white pt-20">

@@ -13,10 +13,10 @@ export default function AboutPage({ onNavigate }: AboutPageProps) {
   return (
     <>
       <SEO
-        title="About DK Mobile Wash | Licensed Mobile Detailing Albuquerque | Trusted Since 2024"
-        description="Learn about DK Mobile Wash: Albuquerque's premier licensed & insured mobile auto detailing service. Professional ceramic coating, paint correction & interior detailing at your door. Call (505) 604-8058"
+        title="About DK Mobile Wash | Albuquerque Mobile Detailers"
+        description="Albuquerque-owned mobile detailing team, licensed & insured, 5-star rated. We bring the shop to your driveway. Call (505) 604-8058."
         keywords="about DK Mobile Wash, licensed mobile detailing Albuquerque, professional auto detailing NM, mobile car wash service Albuquerque, ceramic coating Albuquerque, paint correction Albuquerque, interior detailing Rio Rancho"
-        canonical="https://dkmobilewash.com/about"
+        canonical="https://www.dkmobilewash.com/about"
       />
 
       <div className="min-h-screen bg-white pt-20">

@@ -141,7 +141,7 @@ export function PackagePageTemplate({ package: pkg }: PackagePageTemplateProps) 
         title={`${pkg.name} | DK Mobile Wash Albuquerque`}
         description={`${pkg.shortIntro} Mobile detailing service available throughout the Albuquerque metro area.`}
         keywords={`${pkg.name.toLowerCase()}, mobile detailing albuquerque, ${pkg.category.replace('-', ' ')}`}
-        canonical={`https://dkmobilewashalbuquerque.com/${pkg.slug}`}
+        canonical={`https://www.dkmobilewash.com/${pkg.slug}`}
       />
 
       <div className="min-h-screen bg-white pt-20">

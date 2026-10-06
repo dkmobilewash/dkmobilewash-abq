@@ -88,8 +88,8 @@ const locationData: Record<string, {
     name: 'Rio Rancho',
     heroTitle: 'Mobile Car Detailing in Rio Rancho, NM — We Come to Your Home or Business',
     heroSubtitle: 'Professional mobile auto detailing at your Rio Rancho driveway. Self-contained, licensed, insured, and built for Westside mesa conditions.',
-    seoTitle: 'Mobile Auto Detailing Rio Rancho NM | At-Home Service | DK Mobile Wash',
-    seoDescription: 'Professional mobile car detailing in Rio Rancho, NM. Ceramic coating, interior and exterior detailing at your door. Licensed and insured. Call (505) 604-8058.',
+    seoTitle: 'Mobile Detailing Rio Rancho NM | DK Mobile Wash',
+    seoDescription: 'Mobile car detailing in Rio Rancho, NM at your home or office. Interior, exterior & ceramic coating. Licensed & insured. Call (505) 604-8058.',
     whyDKParagraph1: "Rio Rancho is one of the fastest-growing cities in New Mexico, but professional mobile detailing has not kept pace with the population. Most Rio Rancho residents still have to drive 20 to 30 minutes into Albuquerque to find a quality detail shop — losing half a day to drop-off, waiting, and pickup. DK Mobile Wash eliminates that entirely. Our self-contained mobile unit comes directly to your Cabezon cul-de-sac, your Enchanted Hills driveway, or your Mariposa business lot with everything needed to deliver a professional result. No shop trip, no wait time, no downtime.",
     whyDKParagraph2: "The Westside mesa environment creates specific vehicle challenges that our process addresses directly. Ongoing construction across Rio Rancho generates concrete dust, silica, and metallic particulate that embeds in paint and glass between washes. Rio Rancho municipal hard water leaves calcium deposits on vehicles parked outside. Intense desert sun at West Mesa elevation accelerates UV fading and dashboard cracking. Our decontamination process, UV-protective sealants, and ceramic coating options are the right answer for every one of these problems.",
     clientStory1Title: "Miguel's GMC - Northern Meadows Construction Fix",
@@ -145,8 +145,8 @@ const locationData: Record<string, {
     name: 'Corrales',
     heroTitle: 'Mobile Car Detailing in Corrales, NM — Rural Property Service at Your Door',
     heroSubtitle: 'Professional mobile auto detailing for Corrales homes, ranches, and estates. Self-contained, no hookups required, and experienced with rural environments.',
-    seoTitle: 'Mobile Car Detailing Corrales NM | At-Home Service | DK Mobile Wash',
-    seoDescription: 'Mobile auto detailing in Corrales, NM. We come to your rural property. Ceramic coating, paint correction, interior and exterior detailing. Call (505) 604-8058.',
+    seoTitle: 'Mobile Car Detailing Corrales NM | DK Mobile Wash',
+    seoDescription: 'Mobile detailing in Corrales, NM. Self-contained unit for rural properties, no water or power needed. Call (505) 604-8058 for a quote.',
     whyDKParagraph1: "Corrales is one of the most unique communities in New Mexico — a rural village of farms, horse properties, acequia-fed land, and cottonwood bosque situated between Rio Rancho and Albuquerque. It is also one of the most challenging environments for vehicle paint in the region. Cottonwood pollen is mildly acidic and bonds to clear coat surfaces in spring, creating a yellow film that etches paint if left untreated. Dirt road grime from unpaved streets creates constant abrasive buildup. Acequia irrigation and hard well water leave mineral-dense deposits on paint and glass. Organic debris from large bosque trees drops onto vehicles parked outside year-round.",
     whyDKParagraph2: "DK Mobile Wash is perfectly suited for Corrales because our service model requires nothing from you but a parking spot. We bring our own water in onboard tanks and run on our own power generation — no city water connection, no outdoor outlet, no infrastructure requirement. For residents who moved to Corrales precisely to escape the bustle of Albuquerque, mobile detailing means you never have to drive into the city just to get your vehicle cleaned.",
     clientStory1Title: "Robert's Range Rover - Cottonwood Pollen Attack",
@@ -202,8 +202,8 @@ const locationData: Record<string, {
     name: 'North Valley',
     heroTitle: 'Mobile Car Detailing in North Valley, Albuquerque — Service at Your Driveway',
     heroSubtitle: 'Professional mobile auto detailing for North Valley homes, estates, and bosque properties. Self-contained, licensed, and built for riverine and agricultural environments.',
-    seoTitle: 'Mobile Car Detailing North Valley Albuquerque | DK Mobile Wash',
-    seoDescription: 'Mobile auto detailing in North Valley, Albuquerque. Ceramic coating, paint correction, and interior detailing at your door. Licensed and insured. Call (505) 604-8058.',
+    seoTitle: 'Mobile Detailing North Valley ABQ | DK Mobile Wash',
+    seoDescription: 'Mobile car detailing in Albuquerque\'s North Valley, at your driveway. Interior, exterior & ceramic coating. Call (505) 604-8058.',
     whyDKParagraph1: "North Valley is one of Albuquerque's most distinctive neighborhoods — established estates, agricultural properties, equestrian land, and historic homes along the Rio Grande bosque corridor. Vehicles kept here face a combination of environmental challenges that most detailing companies are not equipped to address. Bosque cottonwood pollen deposits acidic film on paint during spring. Acequia irrigation systems and gravity-fed water delivery create hard water overspray on vehicles parked near landscaping. Rio Grande Valley dust and I-25 highway proximity combine fine particulate with road grime and tar on lower panels. Shaded driveways under large trees accumulate organic debris year-round.",
     whyDKParagraph2: "North Valley also has a higher concentration of luxury, classic, and collector vehicles than most Albuquerque neighborhoods. DK Mobile Wash has the product knowledge, technique discipline, and paint-correct chemistry to handle Porsche, Mercedes, Ferrari, Land Rover, and vintage vehicles safely. Our white-glove process respects both the vehicle and the property — we set up, work, and clean up without leaving anything behind.",
     clientStory1Title: "Carlos' F-150 - Los Griegos Farm Dust Fix",
@@ -259,8 +259,8 @@ const locationData: Record<string, {
     name: 'Tanoan',
     heroTitle: 'Mobile Car Detailing in Tanoan, NM — White-Glove Service for Luxury Vehicles',
     heroSubtitle: 'Concours-level mobile detailing for Tanoan estates and exotic vehicle collections. Discreet, licensed, and built for high-desert paint care.',
-    seoTitle: 'Mobile Auto Detailing Tanoan NM | Luxury & Exotic Service | DK Mobile Wash',
-    seoDescription: 'Premium mobile car detailing in Tanoan. Self-contained unit, licensed and insured. Ceramic coating, paint correction, and interior care for luxury vehicles. Call (505) 604-8058.',
+    seoTitle: 'Luxury Car Detailing Tanoan ABQ | DK Mobile Wash',
+    seoDescription: 'White-glove mobile detailing for luxury and exotic cars in Tanoan. Paint correction & ceramic coating at your home. Call (505) 604-8058.',
     whyDKParagraph1: "Tanoan is one of Albuquerque's most prestigious neighborhoods — a gated community at the Sandia foothills with a high concentration of luxury and exotic vehicles, multi-car collections, and owners who demand a standard of care that most local detailers cannot provide. DK Mobile Wash was built around exactly this standard. Our founder has years of experience in luxury auto care, working with Porsche, Ferrari, Lamborghini, Bentley, and Mercedes-Benz. We bring that expertise directly to your Tanoan garage.",
     whyDKParagraph2: "Tanoan's elevated location at the Sandia foothills means vehicles face foothills dust, intense UV exposure at altitude, and the golf course particulate that settles on paint after rounds at the Tanoan Country Club. Our multi-stage decontamination, precision machine polishing, and professional ceramic coating systems handle all of it with the white-glove process your collection deserves.",
     clientStory1Title: "Member's Porsche 911 - Golf Course Detail",
@@ -304,8 +304,8 @@ const locationData: Record<string, {
     name: 'Paradise Hills',
     heroTitle: 'Mobile Car Detailing in Paradise Hills, NM — Family Vehicle Service at Your Door',
     heroSubtitle: 'Professional mobile detailing for Paradise Hills families. Interior cleaning, pet hair removal, and UV protection — we come to your driveway.',
-    seoTitle: 'Mobile Car Detailing Paradise Hills NM | DK Mobile Wash',
-    seoDescription: 'Mobile auto detailing in Paradise Hills, NM. Ceramic coating, interior detailing, and paint correction at your door. Licensed and insured. Call (505) 604-8058.',
+    seoTitle: 'Mobile Detailing Paradise Hills ABQ | DK Mobile Wash',
+    seoDescription: 'Mobile car detailing in Paradise Hills, Albuquerque. Interior, exterior & ceramic coating at your home. Call (505) 604-8058.',
     whyDKParagraph1: "Paradise Hills sits in Northwest Albuquerque, far from central detailing shops — which makes mobile service the clear choice for busy families. DK Mobile Wash arrives at your driveway fully self-contained with commercial-grade extractors, paint-safe decontamination tools, and ceramic coating equipment. No driving across town. No waiting. We work around your schedule.",
     whyDKParagraph2: "Family vehicles take real punishment: kid spills, food stains, pet hair embedded in upholstery, and the constant volcanic mesa dust that rolls in off the West Mesa. Our interior deep-cleaning process uses hot-water extraction, enzyme treatments, and multi-tool pet hair removal to restore your SUV, minivan, or daily driver to a genuinely clean standard. Exterior treatments include decontamination and optional ceramic protection that holds up against Northwest Albuquerque wind-driven grit.",
     clientStory1Title: "Amar's 911 - Exotic Paint Perfection",
@@ -349,8 +349,8 @@ const locationData: Record<string, {
     name: 'Los Ranchos de Albuquerque',
     heroTitle: 'Mobile Car Detailing in Los Ranchos de Albuquerque — Estate & Bosque Service',
     heroSubtitle: 'Self-contained mobile detailing for Los Ranchos estates and classic vehicles. We handle bosque pollen, dirt roads, and hard water — no hookups needed.',
-    seoTitle: 'Mobile Auto Detailing Los Ranchos NM | Rural & Estate Service | DK Mobile Wash',
-    seoDescription: 'Professional mobile car detailing in Los Ranchos de Albuquerque. Self-contained unit, licensed & insured. Interior cleaning, paint correction & ceramic coating. Call (505) 604-8058',
+    seoTitle: 'Mobile Detailing Los Ranchos NM | DK Mobile Wash',
+    seoDescription: 'Mobile car detailing in Los Ranchos de Albuquerque. Ceramic coating, paint correction & interiors at your property. Call (505) 604-8058.',
     whyDKParagraph1: "Los Ranchos de Albuquerque is one of the most distinctive communities in the Albuquerque metro — a historic village of estates, bosque properties, and rural lots where a standard drive-through car wash simply does not exist and is not appropriate. DK Mobile Wash brings a fully self-contained mobile detailing unit to your property with zero utility hookups required. We carry our own water, power, and all professional-grade products.",
     whyDKParagraph2: "The Los Ranchos environment presents specific vehicle challenges: cottonwood and bosque pollen that embeds in paint and air filters, acequia-side particulate, hard water from irrigation overspray, and unpaved road dust. Our clay bar decontamination, multi-stage paint correction, and ceramic coating systems address all of these. We also have experience with classic and vintage vehicles that require extra care — the kind of care that older Porsches, collectors, and estate owners expect.",
     clientStory1Title: "Tony's 911 - Los Ranchos Exotic Detail",
@@ -419,7 +419,7 @@ export default function LocationPage() {
           title={data.seoTitle}
           description={data.seoDescription}
           keywords={`mobile detailing ${data.name}, car detailing ${data.name}, auto detailing ${data.name}, ceramic coating ${data.name}`}
-          canonical={`https://dkmobilewash.com/${location}`}
+          canonical={`https://www.dkmobilewash.com/${location}`}
         />
 
         <div className="min-h-screen bg-white pt-16">
@@ -438,7 +438,7 @@ export default function LocationPage() {
                   MOBILE DETAILING
                 </div>
                 <h1 style={{ fontSize: '3.5rem', fontWeight: 'bold', marginBottom: '1.5rem', lineHeight: 1.1 }}>
-                  Los Ranchos De Albuquerque
+                  {data.heroTitle}
                 </h1>
                 <p style={{ fontSize: '1.2rem', marginBottom: '2rem', lineHeight: 1.6, opacity: 0.95 }}>
                   {data.heroSubtitle}
@@ -798,7 +798,7 @@ export default function LocationPage() {
           title={data.seoTitle}
           description={data.seoDescription}
           keywords={`mobile detailing ${data.name}, car detailing ${data.name}, auto detailing ${data.name}, ceramic coating ${data.name}`}
-          canonical={`https://dkmobilewash.com/${location}`}
+          canonical={`https://www.dkmobilewash.com/${location}`}
         />
 
         <div className="min-h-screen bg-white pt-16">
@@ -1117,7 +1117,7 @@ export default function LocationPage() {
         title={data.seoTitle}
         description={data.seoDescription}
         keywords={`mobile detailing ${data.name}, car detailing ${data.name}, auto detailing ${data.name}, ceramic coating ${data.name}`}
-        canonical={`https://dkmobilewash.com/${location}`}
+        canonical={`https://www.dkmobilewash.com/${location}`}
       />
 
       <div className="min-h-screen bg-white pt-16">

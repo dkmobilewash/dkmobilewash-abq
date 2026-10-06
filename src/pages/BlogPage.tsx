@@ -28,8 +28,8 @@ export default function BlogPage() {
   return (
     <>
       <SEO
-        title="Auto Detailing Blog Albuquerque NM | Car Care Tips & Guides | DK Mobile Wash"
-        description="Expert auto detailing tips, car care guides, and ceramic coating advice for Albuquerque drivers. Learn how to protect your vehicle from desert sun, hard water spots, and dust. Call (505) 604-8058."
+        title="Car Care Blog for Albuquerque Drivers | DK Mobile Wash"
+        description="Detailing and paint-protection tips for Albuquerque's sun, dust & hard water from DK Mobile Wash's mobile detailers. Call (505) 604-8058."
         keywords="auto detailing blog albuquerque, car care tips albuquerque, ceramic coating guide, mobile detailing advice, car detailing albuquerque nm"
         canonical="https://www.dkmobilewash.com/blog"
       />

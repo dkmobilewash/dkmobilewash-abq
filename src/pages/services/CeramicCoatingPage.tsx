@@ -59,8 +59,8 @@ export default function CeramicCoatingPage() {
   return (
     <>
       <SEO
-        title="Professional Ceramic Coating Albuquerque | 5+ Year Protection | DK Mobile Wash"
-        description="Top-rated ceramic coating services in Albuquerque, NM. 10H+ hydrophobic protection against UV, dust & hard water. Mobile service at your door! Free quote: (505) 604-8058"
+        title="Ceramic Coating Albuquerque NM | DK Mobile Wash"
+        description="Ceramic coating in Albuquerque, applied in your driveway. Multi-year UV, dust & hard-water protection. Free quote: (505) 604-8058."
         keywords="ceramic coating Albuquerque, ceramic coating services, car detailing ceramic coating, mobile ceramic coating near me, ceramic coating services near me, gtechniq crystal serum Albuquerque"
         canonical="https://www.dkmobilewash.com/ceramic-coating"
       />

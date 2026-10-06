@@ -78,8 +78,8 @@ export default function FAQPage({ onNavigate }: FAQPageProps) {
   return (
     <>
       <SEO
-        title="Mobile Detailing FAQ Albuquerque | Car Detailing Questions ABQ"
-        description="Common questions about mobile car wash & auto detailing in Albuquerque. Learn about pricing, ceramic coating, service areas, and deep interior cleaning tips."
+        title="Mobile Detailing FAQ Albuquerque | DK Mobile Wash"
+        description="Answers on mobile detailing in Albuquerque: pricing, water & power, how long it takes, ceramic coating care. Questions? Call (505) 604-8058."
         keywords="mobile detailing FAQ Albuquerque, car detailing questions Albuquerque metro area, auto detailing information Rio Rancho, mobile car wash details Corrales, professional detailing help NM"
         canonical="https://www.dkmobilewash.com/faq"
       />

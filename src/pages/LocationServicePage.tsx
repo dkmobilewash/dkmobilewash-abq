@@ -462,7 +462,7 @@ export default function LocationServicePage() {
     <>
       <SEO
         title={`${svc.name} in ${loc.name} | DK Mobile Wash`}
-        description={`Professional ${svc.name.toLowerCase()} in ${loc.name}. DK Mobile Wash comes to your ${loc.name} home/office. Book premium ${svc.name.toLowerCase()} today.`}
+        description={`Professional ${svc.name.toLowerCase()} in ${loc.name}. DK Mobile Wash comes to your ${loc.name} home or office. Licensed & insured. Call (505) 604-8058.`}
         keywords={`${svc.name.toLowerCase()} ${loc.name}, mobile ${svc.name.toLowerCase()} ${loc.name}, car detailing ${loc.name}`}
         canonical={`https://www.dkmobilewash.com/${location}/${service}`}
       />

@@ -64,8 +64,8 @@ export default function ContactPage({ onNavigate }: ContactPageProps) {
       {/* NOTE: Page title and meta description optimized for Albuquerque metro area local SEO.
           Update cities and services here if service area or offerings change. */}
       <SEO
-        title="Contact DK Mobile Wash Albuquerque | Free Quote | (505) 604-8058"
-        description="Book mobile car wash & auto detailing in Albuquerque metro area. Serving Albuquerque, Rio Rancho, Corrales & beyond. Licensed & insured. Get your free quote today!"
+        title="Book Mobile Detailing Albuquerque | DK Mobile Wash"
+        description="Book mobile auto detailing in Albuquerque, Rio Rancho & Corrales. Free quote by phone or text: (505) 604-8058. Book your spot today."
         keywords="contact mobile detailing Albuquerque, book car detailing Albuquerque metro area, schedule auto detailing Rio Rancho, mobile wash Corrales"
         canonical="https://www.dkmobilewash.com/contact"
       />

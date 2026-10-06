@@ -23,8 +23,8 @@ export default function HomePage() {
   return (
     <>
       <SEO
-        title="Mobile Auto Detailing Albuquerque | Licensed & 5-Star | DK Mobile Wash"
-        description="Expert mobile car detailing Albuquerque. Licensed, insured & 5-star rated. Self-contained unit comes to your home or office. Free quote: (505) 604-8058"
+        title="Car & Mobile Auto Detailing Albuquerque | DK Mobile Wash"
+        description="Mobile auto detailing in Albuquerque. We come to your home or office. Licensed, insured, 5-star rated. Call (505) 604-8058 for a free quote today."
         keywords="mobile auto detailing Albuquerque, car detailing Albuquerque NM, mobile car wash Albuquerque, auto detailing Albuquerque, ceramic coating Albuquerque, interior car detailing Albuquerque"
       />
 
@@ -44,7 +44,7 @@ export default function HomePage() {
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex-1 flex flex-col">
             <div className="text-center mb-auto pt-4 max-w-4xl mx-auto w-full">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white drop-shadow-2xl mb-5">
-                Albuquerque's Top-Rated Mobile Auto Detailing
+                Mobile Car Detailing in Albuquerque — We Come to You
               </h1>
               <p className="text-xl md:text-2xl text-gray-200 mb-4 leading-relaxed drop-shadow-lg">
                 Skip the shop and get professional <Link to="/service/mobile-auto-detailing" className="text-white underline hover:text-gray-200">mobile car detailing Albuquerque</Link> at your home, office, or apartment. Our fully self-contained mobile unit brings its own water and power — no hookups needed. Licensed, insured, and 5-star rated on Google.
@@ -54,6 +54,7 @@ export default function HomePage() {
                 <span className="flex items-center gap-1.5"><Droplets className="w-4 h-4 text-blue-400" /> Self-Contained Water &amp; Power</span>
                 <span className="flex items-center gap-1.5"><MapPin className="w-4 h-4 text-red-400" /> Serving Albuquerque Metro</span>
               </div>
+              <p className="text-sm text-gray-300 mb-4">Serving Albuquerque, Rio Rancho, Corrales, Los Ranchos, Bernalillo, Placitas, Bosque Farms &amp; Los Lunas</p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-auto pb-12">

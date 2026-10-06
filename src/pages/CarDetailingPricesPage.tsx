@@ -8,8 +8,8 @@ export default function CarDetailingPricesPage() {
   return (
     <>
 <SEO
-  title="Car Detailing Prices Albuquerque 2024-2026 | Mobile Detailing Cost Guide | DK Mobile Wash"
-  description="Transparent car detailing prices in Albuquerque, NM. Real 2024-2026 cost breakdown for mobile detailing, ceramic coating & paint correction. Avoid cheap scams. Free quote: (505) 604-8058"
+  title="Car Detailing Prices Albuquerque 2026 | DK Mobile Wash"
+  description="See 2026 mobile detailing prices in Albuquerque: packages, ceramic coating & paint correction. No hidden fees. Free quote: (505) 604-8058."
   keywords="car detailing prices Albuquerque, mobile detailing cost Albuquerque, auto detailing prices Rio Rancho, ceramic coating cost Albuquerque, paint correction price ABQ, car wash prices Albuquerque"
   canonical="https://www.dkmobilewash.com/car-detailing-prices-albuquerque"
 /> 

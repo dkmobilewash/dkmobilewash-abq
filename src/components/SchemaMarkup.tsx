@@ -81,11 +81,6 @@ function getLocalBusinessSchema() {
           bestRating: '5',
           worstRating: '1',
         },
-        itemReviewed: {
-          '@type': 'AutoDetailing',
-          '@id': `${SITE_URL}/#organization`,
-          name: DK_MOBILE_WASH_NAP.fullName,
-        },
       },
       {
         '@type': 'Review',
@@ -97,11 +92,6 @@ function getLocalBusinessSchema() {
           ratingValue: '5',
           bestRating: '5',
           worstRating: '1',
-        },
-        itemReviewed: {
-          '@type': 'AutoDetailing',
-          '@id': `${SITE_URL}/#organization`,
-          name: DK_MOBILE_WASH_NAP.fullName,
         },
       },
       {
@@ -115,11 +105,6 @@ function getLocalBusinessSchema() {
           bestRating: '5',
           worstRating: '1',
         },
-        itemReviewed: {
-          '@type': 'AutoDetailing',
-          '@id': `${SITE_URL}/#organization`,
-          name: DK_MOBILE_WASH_NAP.fullName,
-        },
       },
       {
         '@type': 'Review',
@@ -131,11 +116,6 @@ function getLocalBusinessSchema() {
           ratingValue: '5',
           bestRating: '5',
           worstRating: '1',
-        },
-        itemReviewed: {
-          '@type': 'AutoDetailing',
-          '@id': `${SITE_URL}/#organization`,
-          name: DK_MOBILE_WASH_NAP.fullName,
         },
       },
     ],

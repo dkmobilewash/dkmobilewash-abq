@@ -62,13 +62,6 @@ function getLocalBusinessSchema() {
       'https://www.instagram.com/dkmobilewash',
       'https://www.google.com/maps?cid=3116458399736562489',
     ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '5.0',
-      reviewCount: '50',
-      bestRating: '5',
-      worstRating: '1',
-    },
     review: [
       {
         '@type': 'Review',
